@@ -32,12 +32,13 @@
                         .attr("height",height+margin.top+margin.bottom)
                         .append("g")
                         .attr("transform","translate("+margin.left+","+margin.top+")");
+            //画一个长方形做测试
             //var testRectangle = svg.append("rect")
-                                    .attr("x",20)
-                                    .attr("y",100)
-                                    .attr("height",50)
-                                    .attr("width",200)
-                                    .attr("class","testbar");
+              //                      .attr("x",20)
+                //                    .attr("y",100)
+                  //                  .attr("height",50)
+                    //                .attr("width",200)
+                      //              .attr("class","testbar");
             d3.csv("subscription-prices.csv",
                     function(err,price){
                         
